@@ -1,0 +1,18 @@
+Git
+
+Using git we can move to older versions of our file.
+We use command line to create git
+First we have to initialise it using (git init)
+Then check status using(git status) if file is in staging area.
+If not then add using (git add filename) for multiple use(git .)
+After that we have to commit our added files using (git commit -m "Savepoint name")
+Use (git log) to get details.
+(git diff filename) to get difference and (git checkout filename) to rollback
+(git rm --cached -r) to remove files from staging area
+
+Git for remote repository
+
+Here we put files from local repos to remote repos
+using (.gitignore) we stop pushing certain files
+(git branch name) to create branch
+(git merge branch name) to merge branchs

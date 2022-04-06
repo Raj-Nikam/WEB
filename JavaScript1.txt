@@ -1,0 +1,75 @@
+In Javascript "var" is a datatype for int and string.
+Here we can change from one datatype to another without problem.
+Variables should be camel case eg.camelCase
+snake case=snake_case and dash case=dash-case are not allowed.
+ 
+///Useful methods
+..alert(--)..pop up on screen 
+..prompt(--)..It takes input value in popup from user
+..console.log()...It is like printf
+..clear() 
+
+We have to connect script and html file to work
+
+JS have same operators as java and c
+imp one is === and !==
+JS does not care about type
+== do not provide type coercion while triple does
+string 1 and num 1 will be true using == but false using ===
+
+JS Conditionals
+Else,Else If,If
+
+Number() is type conversion from int to string
+typeof -- tells type of.
+
+JS while
+while(condition)
+Avoid Infinite loops
+
+//inde-of() method to get ind.
+
+JS for
+for(init;condition;step)
+
+02-09-19
+
+Functions
+They are reusable bits of code
+function name(){}----synta..
+
+03-09-19
+Higher order function takes func as an argument
+setInterval(func,interval)--here it calls the func after every specified interval time
+setInterval gives us a number in return
+we have to use that number in clearInterval(num) to stop the func from further processing.
+
+JS Arrays
+ In Js array can have multiple elements with different datatypes
+ var friends=[]
+ var friends=new Array()  ////methods to create array
+Methods
+ arr.push(); to put something in array at very end. It also returns length of array after push
+ arr.pop(); It removes the last item of array
+unshift() it is same as push but it adds at start
+shift() it removes first element
+inde_Of() it returns inde_ of element if not present returns -1;
+.slice() without argument copies entire array otherwise begin and end args are passed
+.splice(inde,1) deletes 1 element of ind if 10 then delete 10
+
+Iteration through array
+using normal for loop and
+arr.forEach(func(variable))
+using while loop incrementing inside loop
+
+Objects
+Objects are in curly braces they are in key value pair
+We can also create object in objects
+Arrays have inde ,objects do not
+We can also create methods inside object.
+
+
+
+
+
+

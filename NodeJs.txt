@@ -1,0 +1,74 @@
+Node is a Js runtime. JS was only for frontend as it used to run on browsers only.
+But after nodejs this things changed using nodejs we can write code on server sides replacing 
+ruby,php. Node is how we run JS on server side. NodeJS have great libraries more than php.
+Also have high performance.Node is built on chromes v8 JS engine.
+
+--NPM
+NPM is package manager for JS.
+NPM stands for node package manager.
+Suppose on server side we have to do some scripting as we use script tag in html for css js etc.
+This script are not supported on server side. So we make use of npm
+npm have vast number of libraries which it refers to as package.
+They are easy to install. Maybe because of npm nodeJs is eminent.
+
+Imp NPM packages and installs
+Use "npm install package" to install
+To use we make use of require "var a=require(cat-me)"
+////cat-me package it creates cat ascii.
+////knock-knock-jokes
+////faker
+////body-parser it creates JS object of req.body
+
+
+Intro to Express..
+Framework- We used to refer libraries as framework.
+We have less control while using framework. ie inversion of controll
+Diff betn framework and library is inversion of control
+Framework prepackages the basic needs to create an app.
+Frameworks have less voids as compare to library
+There are tons of framework like express for web development.
+Express is lightweight and rails is heavyweight.
+Express is unopinionated ie it is flexible.
+
+//Routes are the way listen and then render.
+app.get("/url",callback func(req,res))
+app.listen(process.env.PORT,process.env.IP)... This gives us port and ip for cloud server.
+env is environment variable. In goorm we have to mention port number.
+res.send("") for response.
+
+--save while install packages and package.json!!
+Every node we install there is a file called json(JS obj notation)
+Json holds metadata for frameworks eg dependencies for Express.
+When we install npm using --save than it will take package name etc and add it in json package file.
+
+//Routing in Express
+Order of route matters.
+* is used as url for all gibberish entered. This is useful to show error messages.
+Route parameters or path variables are used for looping
+we cant create a get for every "/" so we make use of ":" it tells Express not to match word to word
+
+
+Intermediate Express
+If we want to send html we have to use render() method.
+EJS means embedded JS.
+<%= %> whatever goes inside this is treated as JS code.
+We have to define code in render which is between % this sign.
+Types of tags in ejs
+<% = %> for values
+<% %> for logics like if for etc
+
+///Serving Custom Assets like css or stylesheets
+app.use(express.static("public"));
+app.set("view engine","ejs"); -- no need to put .ejs
+Partials are used to avoid boiler plates it helps writing dry code.
+
+//Form has two main attributes action-url and method-type of request
+whatever we type in form goes in req body so we have to use that
+body-parser used to create object of body using this we explicitly tell express to create object
+after installing body-parser we need to require it and app.use it
+var bodyParser = require('body-parser')
+app.use(bodyParser.urlencoded({ extended: false }))
+res.redirect(url) to redirect to url
+
+
+

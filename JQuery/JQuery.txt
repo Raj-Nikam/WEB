@@ -1,0 +1,36 @@
+Jquery makes our life easier by simplifying javascript.
+why?--to use dom api simply makes code clearer shorter
+using $ sign we can select what we want instead of using query selector
+selecting with jquery
+$(class or id).css(object or designing)
+the looping for each element will be done automatically here.
+Methods
+text()- It gives us the all the text content in class or id we can also change text.
+html()-It gives us inner html also we can update.
+attr()-known as attribute it retrieves or set and attribute mostly the first of list.
+last()-to get last element
+val()-it gets us the value of selected instance and can also update.
+addClass() and removeClass()- as the name suggests.
+toggleClass()- will add if not present and vice versa.
+
+
+Advanced JQuery
+
+Jquery comes with tons of methods for events.
+mostly used are click and keypress and on().
+$(this) is this version of jquery
+.click() method is like addeventlistener we can pass anonymous function inside it.
+.keypress() method tells us about which key is pressed
+  we only listen to keys but do something only when enter is clicked
+  every key have unique keycode and charcode passing event in function we can see it
+  e.which used to capture mouse as well as keyboard clicks it returns us keycode.
+.on() it is similar to addeventlistener here we give name of event we want to look for
+  .on('dblclick',func()..) etc; on takes methods like keypress,mouseleave etc.
+
+Effects Jquery
+ .fadeOut(time,func), .fadeIn, .fadeToggle etc.
+ sliding effects slideup,slidedown,slidetoggle similar to upper methods.
+
+
+ 
+  

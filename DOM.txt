@@ -1,0 +1,38 @@
+05-09-19
+Document Object Model(DOM)
+It is used to style using javascript
+here we select every part of html and design it.
+document is the main parent object
+here querySelector is used to create objects
+eg. var h1=document.querySelector("h1");
+h1.style.color="pink";
+
+Methods--work as there name suggests
+.getElementById
+.getElementByClassName
+.getElementByTagName
+.querySelectorAll
+//Manipulating Style
+.classList.add(classname)
+.classList.remove(classname)
+.classList.toggle(classname)
+//Manipulating Text
+.textContent() ---- to change/alter content
+.innerHtml()----gives all text content also the strong em tags.
+//Manipulating attributes
+getAttribute and setAttribute to read and write attributes like href and src
+
+06-09-19
+Advanced DOM
+Events are everywhere sometimes if we hover and code pops up etc
+Process- we select element and add eventlistener then listen for click on button or hover or keypress event.
+element.addEventListener(type,func);
+We can have more than 1 listener
+here this refers to what we clicked on
+.classList.toggle to toggle elements
+input.value to get input value
+//Types of events
+click,change
+visit mdn event reference
+mouseover and mouseout for hovering
+

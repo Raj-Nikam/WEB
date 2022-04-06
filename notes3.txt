@@ -1,0 +1,32 @@
+27-8-19
+ Bootstrap
+It is a framework for css html javascript for responsive making of websites.
+
+Bootstrap buttons
+we can use class to achieve results
+eg. btn btn-info etc.
+
+Bootstrap forms
+Jumbotron-takes entire space as per container we adjust that with grid.
+///class container in div acts as a grid.
+
+
+Check form-group form-control form-inline on bootstrap website.
+
+Nav bars
+navbar navbar-default class to get a bar
+navbar-header and inside of it navbar-brand for header
+nav navbar-nav to add about me and list of others
+nav navbar-nav navbar-right to put on right
+
+ //In grid we have 12 units we designate them according to need.
+ col-lg-1 takes 1 unit we can have 12 such columns
+lg means large when we put md the rules apply at md size
+We can nest grids in grids to divide further 12 units.
+//Again row inside columns we can divide grid further ie nested
+
+
+//For navbars we need jquery links in script tag
+jquery link..https://code.jquery.com/jquery-2.1.4.min.js
+n also js file from bootstrap
+js link....https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js

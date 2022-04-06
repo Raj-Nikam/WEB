@@ -1,0 +1,16 @@
+APIS'S
+API are interfaces for code/computers to talk to one another
+Using api we make our apps more attractive and useful.
+In JSON and ×ml we get responses from servers
+JS object notation is JSON.
+Using curl from command line we can request api
+//request library in node used to request
+404 error means not found 404 is statusCode.
+200 statusCode means OK.
+
+We get API responses in String Format so we have to parse it using JSON.
+eg. JSON.parse(body);
+
+//Movie API 
+omdb api 
+

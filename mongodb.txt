@@ -1,0 +1,13 @@
+Create db  (use dbname)
+db (current working db)
+for insertion or add data in mongo (db.collection-name.insertOne({id:1,etc..}))
+Get collections (show collections)
+To find (db.collection-name.find({query-optional}))
+Update (db.collection-name.updateOne({where},{$set{what to update})
+Delete (..................deleteOne({id:2})
+
+Relationships in mongodb
+Using NativeDriver we have to write lot of boiler plate 
+We can minimise it using mongoose.
+
+

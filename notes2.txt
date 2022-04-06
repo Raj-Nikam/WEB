@@ -1,0 +1,91 @@
+23-8-19
+Cascading Style Sheets
+ <li style="color:purple> we can use like this also as an attribute but it is not a good way as at a time multiple styles cant be done.
+We write css separately for html file we can put the css code in header part with style tag
+syntax: <style type="text.css">
+          selector { property: values;}
+With link tag we can link css and html files link is put in html header
+ color attribute can have 2 ways
+color:#hexadecimal
+color:rgb(0,255,0)
+rgba works as rgb last channel is alpha for transperency having range 0-1 rgba(255,255,255,1)
+ 
+///Background and border
+background in body tag changes whole background
+also we can have it for specifed header or para etc.
+background:url() for image.
+border has 3 parts width style and color.
+border-color:width color style;
+
+Css selectors element(li) id(#) and class(.)
+If we want to style any one li then we should provide a id as attribute.
+id cannot be duplicated.
+if we want to change half of something then we should use class.
+class is added as attribute in li
+text decoration:line through to cut out something
+.class should be used in css and #id.
+
+///If we want to find something about page then select-rightclick -inspect
+
+More selectors 
+* - selects every thing on page
+descendants tag if we want to select something inside li
+eg. li a{ }
+adjacent selector selects at same level we have to use +
+attribute selector based on attribute
+eg. a[href="url"] for input also input[type="text"]
+nth-of-type() it is used to select every nth line
+
+Inheritance and specificity
+inheritance is what we apply to parent is by default applied to child
+specificity is we can apply multiple styles to one element.the more relevant is applied for specificity
+
+
+
+
+24-8-19
+
+Lorem ipsum generator - used to generate random text.
+
+font-family:"Arial"; for font check css font stack.
+font-size: units px, 1em=16px
+font-weight: bold for style also 100-800 is used.
+line-height: 2; controls space between lines 2 is multiplied by current space.
+text-align: right,centre,left.. to align para headers etc.
+text decoration: underline; it is used to give underline or line effect.
+
+Google fonts
+We have to copy link and paste it in html header.
+
+Box model
+Each element have a box around it on webpage we can work on them.
+p
+{
+	/*//Content -width and height*/
+	width: 200px;
+	height: 10%;
+	/*padding*/
+	padding: 10px;
+	border: 2px solid blue;
+	/*margin*/
+	margin: 25px;
+margin:top right bottom left;
+
+}
+
+float attribute is used to put things on same line and it removes little quirky space.
+
+
+
+letter-spacing: 10rem rem is similar to em but rem refers to root element.
+<hr> tags for horizontal rows.
+
+
+
+
+
+
+
+
+
+

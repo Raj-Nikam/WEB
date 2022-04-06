@@ -1,0 +1,69 @@
+21-8-19
+<p>-paragraph for other block
+<b>,<strong>-for bold elements in between para
+<i>,<emphasis-em>-for italics type
+<button>-to get button
+
+//Lists in html
+Ordered lists <ol> and unordered lists <ul>
+we can also have nested list ie. a list in another list.
+<li>-is for list. ol will have numbers while unordered will have bullet points.
+eg.
+    <ol> 
+       <li>!Go   <ul> <li> get </li> </ul></li>   // nested list
+        
+     <li>!come</li>
+    </ol>
+
+// div and span
+<div>- it is a blocl level generic container have its own line used for grouing content
+<span>-it is inline container do not have other line
+
+
+///Image tags- they are eg. of attributes
+attributes- they add additional information to tags, they are like key value pairs eg. src=url,etc.
+<img src="url">_ it have attribute src no closing tag src is source of image.
+<a> -anchor tag it is used to create links to other pages.
+     syn- <a href="Url"> Click info to be displayed </a>.....
+
+
+22-8-19
+
+///HTML tables
+<table> tag for creating table <table border="1"> border is attribute. 
+<tr> tag for table row and inside that <td> tag for row data.
+<th> tag is for table header it comes under <tr>
+<thead> and <tbody> work as name suggests.
+
+///Forms sample
+<form> tag is container for different types of inputs it is used to send data in blocks.
+action- attribute in form is url of server where we want to send data.
+method- is a type of http request
+<input type=""> here type can be characters,email,password,color,etc
+placeholder is attribute in input which holds temporary data until user alterd it.
+when we click submit request is made to server and along with that our data is also sent in form, data is in key value pair starts with "?".
+
+///Labels
+They are used to add captions.
+<label> tag, we create this tag and add input in between
+also input can be separated from label tag by using "for" attribute.
+
+Validations are important they will not permit any field to be empty
+required is a attribute for that
+if we change type than required will work accordingly for eg. in email it will ask for @ sign.
+
+Additional ways to get input
+Radio button cannot be unselected it is used only when user have one choice.
+Checkbo.-can be selected and unselected.
+By adding name attriute to radio button we can have only one choice to select but name should be same in both inputs.
+value attribute will be there in place of "on" in url.
+<select> tag is used for dropdown menus, along with select tags we have otions tags.
+we can use value in select tags also.
+
+we can specify the area for te.t in input by specifying rows and columns.
+ pattern=".{5,10}" this attribute will limit the password range.
+
+
+
+
+ 

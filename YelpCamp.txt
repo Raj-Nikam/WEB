@@ -1,0 +1,48 @@
+Yelp Camp
+First set the init json express ejs and save it
+Add the landing page using get.
+Now for campground make an array having name and images for now.
+
+Add the campground page which will display name and image
+Add the header and footer boilerplate
+After which add link for bootstrap
+
+Now we make a post request check that using postman.
+Install body-parser than require and use it.
+Give an option to add new place for that make new.ejs
+And make form there to add place and image url
+Now,in post add req.body.title,req.body.image to get new name and url from form
+Now push new added in campgrounds array.
+Add anchor tags with href for back and new page.
+
+Styling Campgrounds
+Use jumbotron in bootstrap and make grid of images
+use header tag on campground page give class jumbotron
+Put everything inside container using div
+Change content of h1 add paragraph.
+Add addname anchor in jumbotron give btn btn-primary class to it.
+Now as the h1 goes on left while resizing add container inside jumbotron.
+
+Now for grid add div on forEach with class row
+than in another div add class col-lg-12
+Make div with class caption and add name and class thumnail for images.
+
+Add Nav-bar 
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/">Camping</a>	
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/">Login</a></li>
+				<li><a href="/">SignUp</a></li>
+				<li><a href="/">Logout</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+Form design using bootstrap classes
+
+
